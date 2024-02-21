@@ -1,0 +1,57 @@
+html {
+    font-family: courier new;
+}
+
+body {
+    background: linear-gradient(to bottom, hsl(0, 80%, 80%), hsl(210, 60%, 80%));
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+}
+    

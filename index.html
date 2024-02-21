@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Service Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1 id="title">Food Service Survey Form</h1>
+</header>
+
+<main>
+<p id="description">Let us know on how we will improve our service.</p>
+<form id="survey-form">
+
+<div>
+<div>
+<label for="name" id="name-label">Name:</label>
+</div>
+<div>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+</div>
+</div>
+
+<div>
+<div>
+<label for="email" id="email-label">Email:</label>
+</div>
+<div>
+<input type="email" id="email" name="email" placeholder="Enter your email" required>
+</div>
+</div>
+
+<div>
+<div>
+<label for="number" id="number-label">Age:</label>
+</div>
+<div>
+<input type="number" id="number" name="number" placeholder="Enter your age" min="1" max="100" required>
+</div>
+</div>
+
+<div>
+<label for="dropdown">Select your ratings of our service:</label>
+<select id="dropdown" name="dropdown" required>
+<option value="" disabled selected hidden>Choose here</option>
+<option value="option1">Satisfied</option>
+<option value="option2">Great</option>
+<option value="option3">Dissatisfied</option>
+</select>
+</div>
+
+<div>
+<fieldset>
+<legend>How often do you dine out or order food from a food service establishment?</legend>
+<div><label><input type="radio" name="radio" value="Daily"> Daily</label></div>
+<div><label><input type="radio" name="radio" value="2-3 Times a week"> 2-3 Times a week</label></div>
+<div><label><input type="radio" name="radio" value="Once a week"> Once a week</label></div>
+<div><label><input type="radio" name="radio" value="Occasionally"> Occasionally</label></div>
+<div><label><input type="radio" name="radio" value="Rarely"> Rarely</label></div>
+</fieldset>
+</div>
+
+<div>
+<fieldset>
+<legend>What types of food service establishments do you most frequently visit or order from?</legend>
+<div><label><input type="checkbox" name="checkbox" value="Restaurants"> Restaurants</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Fast food chains"> Fast food chains</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Cafes"> Cafes</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Food Trucks"> Food Trucks</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Delivery Services"> Delivery Services</label></div>
+</fieldset>
+</div>
+
+<div>
+<fieldset>
+<legend>How would you rate the overall quality of the food you receive from food service establishments?</legend>
+<div><label><input type="radio" name="radio2" value="Excellent"> Excellent</label></div>
+<div><label><input type="radio" name="radio2" value="Very Good"> Very Good</label></div>
+<div><label><input type="radio" name="radio2" value="Good"> Good</label></div>
+<div><label><input type="radio" name="radio2" value="Fair"> Fair</label></div>
+<div><label><input type="radio" name="radio2" value="Poor"> Poor</label></div>
+</fieldset>
+</div>
+
+<div>
+<fieldset>
+<legend>What factors influence your decision to choose a particular food service establishment?</legend>
+<div><label><input type="checkbox" name="checkbox" value="Quality of food"> Quality of food</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Price"> Price</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Location"> Location</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Speed of service"> Speed of service</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Variety of menu options"> Variety of menu options</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Cleanliness"> Cleanliness</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Reputation/reviews"> Reputation/reviews</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Dietary Options"> Dietary Options</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Promotions/Deals"> Promotions/Deals</label></div>
+<div><label><input type="checkbox" name="checkbox" value="Other"> Other (specify): <input type="text" name="other"></label></div>
+</fieldset>
+</div>
+
+<div>
+<fieldset>
+<legend>How likely are you to recommend our food service to your friends or family?</legend>
+<div><label><input type="radio" name="radio3" value="Very likely"> Very likely</label></div>
+<div><label><input type="radio" name="radio3" value="Likely"> Likely</label></div>
+<div><label><input type="radio" name="radio3" value="Neutral"> Neutral</label></div>
+<div><label><input type="radio" name="radio3" value="Unlikely"> Unlikely</label></div>
+<div><label><input type="radio" name="radio3" value="Very Unlikely"> Very Unlikely</label></div>
+</fieldset>
+</div>
+
+<div>
+<label for="comments">Additional Comments:</label>
+</div>
+<div>
+<textarea id="comments" name="comments" placeholder="Enter your comments" rows="5" cols="65"></textarea>
+</div>
+
+<button type="submit" id="submit">Submit</button>
+
+</form>
+</main>
+</body>
+              </html>
+              
